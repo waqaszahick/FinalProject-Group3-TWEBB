@@ -1,0 +1,73 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(255, 255, 255);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(255, 255, 255);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(255, 255, 255);
+}
+h6{
+  color: white;
+}
+a{
+  color: white;
+}
+a:hover{
+  color:red;
+}
+    body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(0deg, rgba(61, 37, 37, 0.432), rgba(44, 18, 18, 0.685)),url("https://assets.nflxext.com/ffe/siteui/vlv3/9b1cc4b3-40f2-4bfa-9006-28f7a0aedb45/375aad6e-2d24-4a37-98a0-94d5debcaa16/SG-en-20210513-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    }
+    
+    .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: rgba(255, 0, 0, 0.699);
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+   

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movie Recommendation System</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/css/movies.css">
+  </head>
+ 
+  <body>
+	    <!-- ======= Header ======= -->
+  <!-- <header id="header">
+    <div class="container-fluid">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: black;">
+  <a class="navbar-brand" href="/"><span class="material-icons" style="font-size: 50px; color:crimson">movie</span></a>
+  </nav>
+  </div>
+  </header> -->
+	<!-- End Header -->
+    <div class="container mt-2">
+	
+		<div class="row">
+			<h3 id="name"></h3>
+			<h6 id="rating" style="color:gold; font-weight:bold"></h6>
+			<div class="col"><a class="navbar-brand float-right" href="/"><span class="material-icons" style="font-size: 50px; color:crimson">movie</span></a></div>
+			</div>
+		<div class="row">
+			<img class="poster col-md-4" src='' style="margin-left:5%;" width = "80%"/></img>
+			<div class="col-md-5">
+				<h3 style="text-align:center; color:crimson; font-weight:bold">Click on the image to view trailer</h3>
+				<img id="trailer" src="https://www.iamherelearning.com/wp-content/uploads/2020/02/Movie-Icon-1-460x406.png" style="margin-left:5%; cursor: pointer;" width = "70%"/></img>
+				<div>
+					<h6 id="synopsis"></h6>
+					
+				</div>
+			</div>
+		</div>
+		<div><h3 style="color:crimson; font-weight:bold">Related Movies:</h3></div>
+		<!-- <ul class="items">
+			
+		</ul> -->
+		<section>
+			<div class="container-fluid">
+			  <div class="container">
+				<div class="row">
+				  <div class="items">
+
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </section>
+    </div>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="./static/js/movies.js"></script>
+  </body>
+</html>
