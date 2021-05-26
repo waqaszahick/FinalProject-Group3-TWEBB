@@ -102,6 +102,10 @@ def output():
 
     return render_template("detail.html")
 
+@app.route("/aboutus")
+def aboutus():
+
+    return render_template("aboutus.html")
 
 @app.route("/recommend_movies/<name>")
 def recommend_movies(name):
