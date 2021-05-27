@@ -190,7 +190,7 @@
 }
 
 .card.hovercard .cardheader {
-    background: url("https://wallpaper.dog/large/10736929.jpg");
+    background: url("http://www.bigdamngeeks.com/wp-content/uploads/2013/01/Justice5.jpg");
     background-size: cover;
     height: 65%;
 }
@@ -237,4 +237,4 @@
     margin-bottom: 17px;
 }
 
-.btn{ border-radius: 50%; width:32px; height:32px; line-height:18px;  }
+.btn{ border-radius: 50%; width:40px; height:40px; line-height:18px;  }
