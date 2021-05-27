@@ -3,7 +3,7 @@ Final Project: Movie Recommendation System
 
 
 Machine Learning Project:
-Movie Recommendation System Project using “Python”
+Movie Recommendation System using “Python”
 
 About Project Name:
 
